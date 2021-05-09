@@ -16,6 +16,10 @@ BRUH_BOT.on('message', msg => {
     if (msg.content.toLowerCase() === 'marco') {
         channel.send('polo');     
     }
+    
+    if (msg.content.toLowerCase() === 'polo') {
+        channel.send('what');     
+    }
 
     if (msg.content.startsWith(config.prefix))
     {
